@@ -1,0 +1,38 @@
+div.hamburger {
+    /* padding-top: 40px; */
+    position: fixed;
+    right: 8vw;
+    top: 5.5vh;
+    width: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 100;
+}
+ #one { 
+    width: 2.5rem;
+    height: 0.05rem;
+    padding: 2px 0 2px 0;
+    margin: 1px 0 2px 0;
+    background: rgb(183, 5, 5);
+}
+ #two {
+    width: 2.5rem;
+    height: 0.05rem; 
+    padding: 2px 0 2px 0;
+    margin: 2px 0 2px 0;
+    background: rgb(183, 5, 5);
+}
+ #three { 
+    width: 2.5rem;
+    height: 0.05rem;
+    padding: 2px 0 2px 0;
+    margin: 2px 0 2px 0;
+    background: rgb(183, 5, 5);
+}
+
+@media (min-width: 767px) {
+    div.hamburger {
+            display: none;
+    }
+}
