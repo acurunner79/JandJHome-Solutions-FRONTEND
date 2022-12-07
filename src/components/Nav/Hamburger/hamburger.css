@@ -14,21 +14,21 @@ div.hamburger {
     height: 0.05rem;
     padding: 2px 0 2px 0;
     margin: 1px 0 2px 0;
-    background: rgb(157, 3, 3);
+    background: rgb(196, 51, 51);
 }
  #two {
     width: 2.5rem;
     height: 0.05rem; 
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
-    background: rgb(157, 3, 3);
+    background: rgb(196, 51, 51);
 }
  #three { 
     width: 2.5rem;
     height: 0.05rem;
     padding: 2px 0 2px 0;
     margin: 2px 0 2px 0;
-    background: rgb(157, 3, 3);
+    background: rgb(196, 51, 51);
 }
 
 @media (min-width: 767px) {

@@ -9,6 +9,7 @@ const IndexPage = () => (
       <img id="main-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1670205455/FullLogo_Transparent_NoBuffer_a87opl.png"/>
     </div>
     <div id="mid-container">
+      <img id="hero-image" src="https://res.cloudinary.com/acurunner79/image/upload/v1670443788/hardware-store-tools-2-sized-for-social___26175540556_tbmd4b.jpg"/>
       <h1>Site is under construction.... Get it?</h1>
     </div>
   </Layout>

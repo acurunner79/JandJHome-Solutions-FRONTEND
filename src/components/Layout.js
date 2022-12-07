@@ -16,26 +16,27 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         font-family: 'Helvetica', sans-seriff;
         background-color: rgb(239, 239, 239)
+        overflow-x: hidden;
     }
 
     a{
-        color: rgb(157, 3, 3);
+        color: rgb(196, 51, 51);
         text-decoration: none;
         list-style: none;
         font-size: 20px
     }
 
     #text{
-        color:rgb(157, 3, 3); 
+        color:rgb(196, 51, 51); 
     }
 
     h1, h2, h3, h4, h5, h6, p{
-        color:rgb(157, 3, 3);
+        color:rgb(196, 51, 51);
     }
 
     button{
         background-color: transparent;
-        border: 2px solid rgb(157, 3, 3);
+        border: 2px solid rgb(196, 51, 51);
         border-radius: 8px;
         width: 25vw;
         height: 5vh
