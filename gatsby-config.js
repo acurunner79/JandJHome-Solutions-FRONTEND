@@ -6,5 +6,7 @@ module.exports = {
     title: `JJ-home-solutions-frontend`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-styled-components"]
+  plugins: [
+    "gatsby-plugin-styled-components",
+  ]
 };
