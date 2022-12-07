@@ -4,7 +4,8 @@
 
 #hero-image{
     width: 300px;
-    margin: 0 auto;
+    margin: 0 auto ;
+    
 }
 
 #main-logo{
@@ -12,7 +13,9 @@
 }
 
 #mid-container{
-    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 150px; */
     width: 75vw;
     margin: 50px auto;
 }

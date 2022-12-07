@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     a{
-        color: rgb(196, 51, 51);
+        color: white;
         text-decoration: none;
         list-style: none;
         font-size: 20px
@@ -35,8 +35,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     button{
-        background-color: transparent;
-        border: 2px solid rgb(196, 51, 51);
+        background-color: rgb(183, 5, 5);
+        border: 2px solid rgb(183, 5, 5);
         border-radius: 8px;
         width: 25vw;
         height: 5vh
