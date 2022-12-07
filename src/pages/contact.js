@@ -15,39 +15,34 @@ const Contact = () => {
             <form id="contact-form" onSubmit={handleSubmit} method="POST">
                 <ValidationError field="email" prefix="Email" errors={state.errors} />
                 <div id="contact-card">
-                    <label className="form-title">First Name
-                        <input
+                    <label className="form-title">First Name</label>
+                        <input className="input-field"
                             name="first name"
                             type="name"
                             placeholder="Required"
                         ></input>
-                    </label>
                     <br/>
-                    <label className="form-title">Last Name
-                        <input
+                    <label className="form-title">Last Name</label>
+                        <input className="input-field"
                             name="last name"
                             type="name"
                             placeholder="Required"
                         ></input>
-                    </label>
                     <br/>
-                    <label className="form-title"
-                        htmlFor="email">Email
-                        <input
+                    <label className="form-title">Email Address</label>
+                        <input className="input-field"
                             name="email"
                             type="email"
                             placeholder="Required"
                         ></input>
-                    </label>
                     <br/>
-                    <label className="form-title">Message
-                        <textarea
+                    <label className="form-title">Message</label>
+                        <textarea 
                             id="message"
                             name="message"
                         ></textarea>
-                    </label>
                     <br/>
-                    <button type="submit" disabled={state.submitting}>Submit</button>
+                    <button type="submit" disabled={state.submitting}><a>Submit</a></button>
                 </div>
             </form>
         </Layout>

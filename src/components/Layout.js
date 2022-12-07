@@ -15,21 +15,31 @@ const GlobalStyle = createGlobalStyle`
         text-align: center;
         margin: 0;
         font-family: 'Helvetica', sans-seriff;
+        background-color: rgb(239, 239, 239)
     }
 
     a{
-        color: rgb(183, 5, 5);
+        color: rgb(157, 3, 3);
         text-decoration: none;
         list-style: none;
         font-size: 20px
     }
 
     #text{
-        color:rgb(183, 5, 5); 
+        color:rgb(157, 3, 3); 
     }
 
     h1, h2, h3, h4, h5, h6, p{
-        color:rgb(183, 5, 5);
+        color:rgb(157, 3, 3);
+    }
+
+    button{
+        background-color: transparent;
+        border: 2px solid rgb(157, 3, 3);
+        border-radius: 8px;
+        width: 25vw;
+        height: 5vh
+        font-size: 25px
     }
 `
 
