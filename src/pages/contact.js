@@ -39,11 +39,11 @@ const Contact = () => {
                     <br/>
                     <label className="form-title">Type of work</label>
                     <select className="options" name="TYPE OF WORK">
-                        <option value="test 1" name="test 1" type='TEST1'><p></p></option>
-                        <option value="test 1" name="test 1" type='TEST1'><p>Home Interior</p></option>
-                        <option className="options"><p>Bathroom</p></option>
-                        <option className="options"><p>Garage</p></option>
-                        <option className="options"><p>Electical</p></option>
+                        <option value="test 1" name=""><p></p></option>
+                        <option value="Home Interior" name="Home Interior" ><p>Home Interior</p></option>
+                        <option className="options" value="Bathroom"><p>Bathroom</p></option>
+                        <option className="options" value="Garage"><p>Garage</p></option>
+                        <option className="options" value="Electrical"><p>Electical</p></option>
                     </select>
                     <label className="form-title">Message</label>
                         <textarea 
