@@ -15,15 +15,16 @@ const GlobalStyle = createGlobalStyle`
         text-align: center;
         margin: 0;
         font-family: 'Helvetica', sans-seriff;
-        background-color: rgb(239, 239, 239)
+        background-color: rgb(239, 239, 239);
+        // background-color: black;
         overflow-x: hidden;
     }
 
     a{
-        color: white;
+        color: rgb(183, 5, 5);
         text-decoration: none;
         list-style: none;
-        font-size: 20px
+        font-size: 20px;
     }
 
     #text{
@@ -39,8 +40,8 @@ const GlobalStyle = createGlobalStyle`
         border: 2px solid rgb(183, 5, 5);
         border-radius: 8px;
         width: 25vw;
-        height: 5vh
-        font-size: 25px
+        height: 5vh;
+        font-size: 25px;
     }
 `
 

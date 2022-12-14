@@ -7,8 +7,9 @@ import '../styles/contact.css'
 const Contact = () => {
     const [state, handleSubmit] = useForm('xwkzgbyw')
     if (state.succeeded){
-        return <p>Message sent! We will get back to you.</p>
+        return <Layout><p id="email-alert">Message sent! <br/>We will get back to you.</p><a href="/">Back home</a></Layout>
     }
+
     return(
         <Layout>
             <h1 id="contact-header">Contact Us</h1>
@@ -36,13 +37,21 @@ const Contact = () => {
                             placeholder="Required"
                         ></input>
                     <br/>
+                    <label className="form-title">Type of work</label>
+                    <select className="options" name="TYPE OF WORK">
+                        <option value="test 1" name="test 1" type='TEST1'><p></p></option>
+                        <option value="test 1" name="test 1" type='TEST1'><p>Home Interior</p></option>
+                        <option className="options"><p>Bathroom</p></option>
+                        <option className="options"><p>Garage</p></option>
+                        <option className="options"><p>Electical</p></option>
+                    </select>
                     <label className="form-title">Message</label>
                         <textarea 
                             id="message"
                             name="message"
                         ></textarea>
                     <br/>
-                    <button type="submit" disabled={state.submitting}><a>Submit</a></button>
+                    <button type="submit" disabled={state.submitting}><p id="button-text">Submit</p></button>
                 </div>
             </form>
         </Layout>

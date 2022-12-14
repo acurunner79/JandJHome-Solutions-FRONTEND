@@ -11,6 +11,10 @@ nav#navbar{
     display: none;
 }
 
+#nav-logo{
+    display: none;
+}
+
 @media (min-width: 767px) {
     nav#navbar{
         display: flex;
@@ -22,6 +26,18 @@ nav#navbar{
     ul#nav-links{
         display: flex;
         width: 95vw;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .nav-link-indiv{
+        margin: 0 10px;
+
+    }
+
+    #nav-logo{
+        display: flex;
+        width: 50px;
+        margin: 10px;
     }
 }
