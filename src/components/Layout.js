@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
         background-color: rgb(183, 5, 5);
         border: 2px solid rgb(183, 5, 5);
         border-radius: 8px;
-        width: 25vw;
+        width: 200px;
         height: 5vh;
         font-size: 25px;
     }

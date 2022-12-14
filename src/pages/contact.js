@@ -39,11 +39,21 @@ const Contact = () => {
                     <br/>
                     <label className="form-title">Type of work</label>
                     <select className="options" name="TYPE OF WORK">
-                        <option value="test 1" name=""><p></p></option>
-                        <option value="Home Interior" name="Home Interior" ><p>Home Interior</p></option>
-                        <option className="options" value="Bathroom"><p>Bathroom</p></option>
-                        <option className="options" value="Garage"><p>Garage</p></option>
-                        <option className="options" value="Electrical"><p>Electical</p></option>
+                        <option value="Did not choose" name="Did not choose">
+                            <p>Choose One</p>
+                        </option>
+                        <option value="Home Interior" name="Home Interior">
+                            <p>Home Interior</p>
+                        </option>
+                        <option className="options" value="Bathroom">
+                            <p>Bathroom</p>
+                        </option>
+                        <option className="options" value="Garage">
+                            <p>Garage</p>
+                        </option>
+                        <option className="options" value="Electrical">
+                            <p>Electical</p>
+                        </option>
                     </select>
                     <label className="form-title">Message</label>
                         <textarea 
